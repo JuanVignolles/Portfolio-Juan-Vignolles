@@ -66,7 +66,7 @@ export default function Contact() {
         />
         <textarea
           name="message"
-          placeholder="Tu mensaje (por ejemplo, detalles del puesto o propuesta)"
+          placeholder="Tu mensaje"
           rows="5"
           value={formData.message}
           onChange={handleChange}

@@ -1,10 +1,16 @@
 import { useState } from "react";
+import profilePic from "../assets/perfil.jpg"; 
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="navbar">
+      <div className="nav-brand">
+        <img src={profilePic} alt="Foto de perfil" className="nav-profile" />
+        <span className="nav-name">Juan Vignolles</span>
+      </div>
+
       <div className={`nav-links ${menuOpen ? "open" : ""}`}>
         <a href="#hero">Inicio</a>
         <a href="#about">Sobre mí</a>
@@ -14,7 +20,8 @@ export default function Navbar() {
 
       <div
         className={`nav-toggle ${menuOpen ? "active" : ""}`}
-        onClick={() => setMenuOpen(!menuOpen)}>
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
         <span></span>
         <span></span>
         <span></span>
@@ -22,3 +29,4 @@ export default function Navbar() {
     </nav>
   );
 }
+

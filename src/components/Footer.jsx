@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>© {new Date().getFullYear()} Juan V. — Frontend Developer</p>
+        <p>© {new Date().getFullYear()} Juan Pablo Vignolles — Frontend Developer</p>
         <div className="footer-links">
           <a href="https://github.com/JuanVignolles" target="_blank" rel="noopener noreferrer">
             GitHub
