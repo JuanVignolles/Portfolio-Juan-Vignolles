@@ -1,3 +1,5 @@
+import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaGitAlt, FaBootstrap, FaNodeJs } from "react-icons/fa";
+
 export default function About() {
   return (
     <section id="about" className="about">
@@ -16,8 +18,7 @@ export default function About() {
           <p>
             Busco incorporarme a un equipo donde pueda seguir creciendo profesionalmente y aportar con entusiasmo, responsabilidad y trabajo colaborativo.
           </p>
-          <a href="/public/CV -Juan Pablo Vignolles.pdf" target="_blank" className="btn">Descargar CV</a>
-
+          <a href="/CV -Juan Pablo Vignolles.pdf" target="_blank" className="btn">Descargar CV</a>
         </div>
       </div>
 
@@ -25,14 +26,14 @@ export default function About() {
       <div className="about-extra">
         <div className="about-card">
           <h3>Tecnologías</h3>
-          <ul>
-            <li>HTML - Avanzado</li>
-            <li>CSS / Sass - Avanzado</li>
-            <li>JavaScript - Moderado</li>
-            <li>React js - Moderado</li>
-            <li>Git / GitHub - Moderado</li>
-            <li>Bootstrap - Moderado</li>
-            <li>Node js - Basico</li>
+          <ul className="tech-list">
+            <li><FaHtml5 className="tech-icon html" /> HTML - Avanzado</li>
+            <li><FaCss3Alt className="tech-icon css" /> CSS / Sass - Avanzado</li>
+            <li><FaJs className="tech-icon js" /> JavaScript - Moderado</li>
+            <li><FaReact className="tech-icon react" /> React js - Moderado</li>
+            <li><FaGitAlt className="tech-icon git" /> Git / GitHub - Moderado</li>
+            <li><FaBootstrap className="tech-icon bootstrap" /> Bootstrap - Moderado</li>
+            <li><FaNodeJs className="tech-icon node" /> Node js - Básico</li>
           </ul>
         </div>
 
@@ -51,7 +52,6 @@ export default function About() {
         <div className="about-card">
           <h3>Adicionales</h3>
           <ul>
-            <li>Inglés — Avanzado (C1)</li>
             <li>Aprendizaje autónomo</li>
             <li>Gestión del tiempo y productividad</li>
             <li>Comunicación efectiva</li>
@@ -61,10 +61,10 @@ export default function About() {
             <li>Adaptabilidad a nuevas tecnologías</li>
           </ul>
         </div>
-
       </div>
     </section>
   );
 }
+
 
 

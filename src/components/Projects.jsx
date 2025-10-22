@@ -36,7 +36,7 @@ export default function Projects() {
                   GitHub
                 </a>
                 <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                  Web
+                  Ver Deploy
                 </a>
               </div>
             </div>

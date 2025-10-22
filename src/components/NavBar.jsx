@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="nav-brand">
         <img src={profilePic} alt="Foto de perfil" className="nav-profile" />
-        <span className="nav-name">Juan Vignolles</span>
+        <span className="nav-name">Juan Pablo Vignolles</span>
       </div>
 
       <div className={`nav-links ${menuOpen ? "open" : ""}`}>

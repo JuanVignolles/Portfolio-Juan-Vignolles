@@ -13,7 +13,7 @@ body {
 }
 
 section {
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   text-align: center;
 }
 
@@ -59,7 +59,6 @@ section {
   background-color: var(--secondary-hover);
 }
 
-/* ============ NAVBAR ============ */
 .navbar {
   display: flex;
   justify-content: center;
@@ -88,7 +87,6 @@ section {
   color: var(--secondary);
 }
 
-/* Botón hamburguesa */
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -103,7 +101,6 @@ section {
   transition: all 0.3s ease;
 }
 
-/* Efecto cuando está activo */
 .nav-toggle.active span:nth-child(1) {
   transform: rotate(45deg) translateY(8px);
 }
