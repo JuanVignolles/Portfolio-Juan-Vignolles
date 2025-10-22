@@ -6,7 +6,7 @@ export default function About() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            ¡Hola! Soy <strong>Juan Pablo Vignolles</strong>, desarrollador frontend junior con pasión por crear interfaces limpias, rápidas y modernas.
+            ¡Hola! Soy <strong>Juan</strong>, desarrollador frontend junior con pasión por crear interfaces limpias, rápidas y modernas.
             Me motiva transformar ideas en experiencias visuales efectivas y accesibles.
           </p>
           <p>
