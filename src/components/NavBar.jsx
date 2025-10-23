@@ -1,8 +1,18 @@
-import { useState } from "react";
+import { useState , useEffect } from "react";
 import profilePic from "../assets/perfil.jpg"; 
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+    useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        setMenuOpen(false);
+      }
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <nav className="navbar">
