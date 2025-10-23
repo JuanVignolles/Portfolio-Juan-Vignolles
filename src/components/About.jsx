@@ -40,7 +40,7 @@ export default function About() {
         <div className="about-card">
           <h3>Conocimientos de Programación</h3>
           <ul>
-            <li>Inglés — Avanzado (C1)</li>
+            <li>Inglés — Intermedio</li>
             <li>Responsive Design avanzado (Mobile First, accesibilidad)</li>
             <li>Diseño UI/UX básico (Figma, prototipado, wireframes)</li>
             <li>Uso de APIs REST</li>

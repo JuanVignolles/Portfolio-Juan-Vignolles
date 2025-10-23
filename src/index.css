@@ -16,7 +16,8 @@ body {
   padding: 0;
   width: 100%;
   overflow-x: hidden;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-style: normal;
   background: var(--primary);
   color: var(--text);
   scroll-behavior: smooth;
