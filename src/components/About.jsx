@@ -18,7 +18,7 @@ export default function About() {
           <p>
             Busco incorporarme a un equipo donde pueda seguir creciendo profesionalmente y aportar con entusiasmo, responsabilidad y trabajo colaborativo.
           </p>
-          <a href="/CV -Juan Pablo Vignolles.pdf" target="_blank" className="btn">Descargar CV</a>
+          <a href="/CV-JuanPabloVignolles.pdf" target="_blank" className="btn">Descargar CV</a>
         </div>
       </div>
 

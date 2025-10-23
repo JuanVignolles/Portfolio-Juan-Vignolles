@@ -14,7 +14,7 @@ export default function Projects() {
       title: "Shadow World",
       description:
         "Website frontend oficial para un juego MMORPG ficticio, orientado al logeo, información y consulta. Desarrollado con React, Tailwind y LocalStorage",
-      image: "/public/img/proyect2-jpg",
+      image: "/img/proyect2-jpg",
       github: "",
       demo: ""
     } */
