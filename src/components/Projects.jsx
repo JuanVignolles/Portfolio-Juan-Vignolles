@@ -5,7 +5,7 @@ export default function Projects() {
       title: "Aromática Fragancias",
       description:
         "E-commerce frontend para la venta de velas aromáticas. Desarrollado con React, Sass y LocalStorage.",
-      image: "/public/img/proyect1-bg.jpg", 
+      image: "/img/proyect1-bg.jpg", 
       github: "https://github.com/JuanVignolles/AromaticaFragancias",
       demo: "https://aromaticas.netlify.app/"
     },
